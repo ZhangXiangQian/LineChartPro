@@ -53,7 +53,7 @@
        //Paint.Style.FILL_AND_STROKE 实心且描边 实际效果同Paint.Style.Fill差别不大
        paint_text.setStyle(Paint.Style.STROKE);
   ```
-  ##### Canves（画布）
+##### Canves（画布）
      * 初始化
      
      在这里Canves不用我们单独初始化，onDraw方法里会传入一个Canves,我们直接在上面操作即可，绘制图形的方法大多是由Canver来调用的，下面才是重点
