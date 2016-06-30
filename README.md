@@ -60,12 +60,14 @@
      在这里Canves不用我们单独初始化，onDraw方法里会传入一个Canves,我们直接在上面操作即可，绘制图形的方法大多是由Canver来调用的，下面才是重点
      
      * 绘制直线
+     
     ```java
      drawLine(float startX, float startY, float stopX, float stopY, @NonNull Paint paint)
     ```
-      第一个参数：起点的横坐标 x
-      第二个参数：起点的纵坐标 y
-      第三个参数：终点的横坐标 x
-      第四个参数：终点的纵坐标 y
-      第五个参数：paint(画笔)
+    
+      第一个参数：起点的横坐标 x；
+      第二个参数：起点的纵坐标 y；
+      第三个参数：终点的横坐标 x；
+      第四个参数：终点的纵坐标 y；
+      第五个参数：paint(画笔)；
      
