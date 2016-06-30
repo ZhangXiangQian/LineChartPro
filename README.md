@@ -53,6 +53,7 @@
        //Paint.Style.FILL_AND_STROKE 实心且描边 实际效果同Paint.Style.Fill差别不大
        paint_text.setStyle(Paint.Style.STROKE);
   ```
+  
 ##### Canves（画布）
      * 初始化
      
