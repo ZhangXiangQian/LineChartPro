@@ -36,3 +36,20 @@
 
 ###相关类和方法介绍
 #####Paint（画笔）
+   * 初始化
+  ```java
+       Paint paint_text = new Paint();
+  ```
+   * 参数配置
+  ```java
+       paint_text.setColor(textColorBlue);    //画笔颜色
+       paint_text.setAntiAlias(false);        //是否抗锯齿，抗锯齿绘制出来得效果会更好
+       paint_text.setAlpha(100);              //设置透明度
+       paint_text.setStrokeWidth(strokeWidth); //设置空心边框的宽度
+       paint_text.setTextSize(textSize);      //绘制文字的大小
+       
+       //Paint.Style.STROKE 绘制空心图形
+       //Paint.Style.FILL  绘制实心图形
+       //Paint.Style.FILL_AND_STROKE 实心且描边 实际效果同Paint.Style.Fill差别不大
+       paint_text.setStyle(Paint.Style.STROKE);
+  ```
