@@ -62,7 +62,9 @@
      * 绘制直线
      
     ```java
+    
      drawLine(float startX, float startY, float stopX, float stopY, @NonNull Paint paint)
+     
     ```
     
       第一个参数：起点的横坐标 x；
