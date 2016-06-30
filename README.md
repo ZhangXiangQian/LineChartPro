@@ -35,7 +35,7 @@
 重写此方法会更完美
 
 ###相关类和方法介绍
-#####Paint（画笔）
+##### Paint（画笔）
    * 初始化
   ```java
        Paint paint_text = new Paint();
@@ -53,3 +53,18 @@
        //Paint.Style.FILL_AND_STROKE 实心且描边 实际效果同Paint.Style.Fill差别不大
        paint_text.setStyle(Paint.Style.STROKE);
   ```
+  ##### Canves（画布）
+     * 初始化
+     
+     在这里Canves不用我们单独初始化，onDraw方法里会传入一个Canves,我们直接在上面操作即可，绘制图形的方法大多是由Canver来调用的，下面才是重点
+     
+     * 绘制直线
+    ```java
+     drawLine(float startX, float startY, float stopX, float stopY, @NonNull Paint paint)
+    ```
+      第一个参数：起点的横坐标 x
+      第二个参数：起点的纵坐标 y
+      第三个参数：终点的横坐标 x
+      第四个参数：终点的纵坐标 y
+      第五个参数：paint(画笔)
+     
